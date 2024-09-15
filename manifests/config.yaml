@@ -1,0 +1,24 @@
+apiVersion: kots.io/v1beta1
+kind: Config
+metadata:
+  name: gitea
+spec:
+  groups:
+    - name: admin_settings
+      title: Administrator Settings
+      description: Configure Administrator Information
+      items:
+        - name: adminUsername
+          title: Administrator Username
+          help_text: Set the Administrator username
+          type: test
+          default: "admin"
+        - name: adminPassword
+          title: Administrator Password
+          help_text: Set the Administrator password
+          type: text
+        - name: adminEmail
+          title: Administrator Email
+          help_text: Set the Administrator email address
+          type: text
+        
