@@ -3,8 +3,7 @@ kind: Application
 metadata:
   name: gitea
 spec:
-  title: Gitea-Up
-  icon: "https://docs.gitea.com/img/gitea.svg"
+  title: Gitea
   statusInformers:
      - deployment/gitea
   ports:
