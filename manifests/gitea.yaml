@@ -15,4 +15,7 @@ spec:
         type: NodePort
         nodePorts:
           http: "32000"
-  
+  values:
+    adminUsername: repl{{ ConfigOption "adminUsername" | quote }}
+    adminPassword: repl{{ ConfigOption "adminPassword" | quote }}
+    adminEmail: repl{{ ConfigOption "adminEmail" | quote }}
