@@ -15,12 +15,4 @@ spec:
         type: NodePort
         nodePorts:
           http: "32000"
-  values:
-    adminUsername: '{{repl ConfigOption "adminUsername" }}'
-    adminPassword: '{{repl ConfigOption "adminPassword" }}'
-    adminEmail: '{{repl ConfigOption "adminEmail" }}'
-    replicated:
-      enabled: false
-      preflights: false
-      isKOTSManaged: true
   
