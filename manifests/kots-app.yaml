@@ -3,7 +3,8 @@ kind: Application
 metadata:
   name: gitea
 spec:
-  title: Gitea
+  title: Gitea-Up
+  icon: https://bitnami.com/assets/stacks/gitea/img/gitea-stack-220x234.png
   statusInformers:
     - deployment/gitea
   ports:
@@ -11,4 +12,3 @@ spec:
       servicePort: 3000
       localPort: 32000
       applicationUrl: "http://gitea"
-  icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/kubernetes/icon/color/kubernetes-icon-color.png

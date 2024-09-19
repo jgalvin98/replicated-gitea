@@ -2,3 +2,12 @@ apiVersion: embeddedcluster.replicated.com/v1beta1
 kind: Config
 spec:
   version: 1.9.1+k8s-1.29
+  roles:
+    controller:
+      name: management-node
+      labels:
+        management: "true" # Label applied to "management" nodes
+    custom:
+    - name: app-node
+      labels:
+        app: "true" # Label applied to "app" nodes

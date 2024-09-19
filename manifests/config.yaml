@@ -11,12 +11,12 @@ spec:
         - name: adminUsername
           title: Administrator Username
           help_text: Set the Administrator username
-          type: test
+          type: text
           default: "admin"
         - name: adminPassword
           title: Administrator Password
           help_text: Set the Administrator password
-          type: text
+          type: password
         - name: adminEmail
           title: Administrator Email
           help_text: Set the Administrator email address
