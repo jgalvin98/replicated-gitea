@@ -42,6 +42,10 @@ replicated release lint --yaml-dir ./manifests
 
 replicated release create --yaml-dir ./manifests
 
+Go to GUI and promote the release
+
+Create a Customer for this App
+
 ssh to vm3.chancydog.com
 
 view the admin console install output
