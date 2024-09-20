@@ -19,7 +19,7 @@ replicated app create gitea-hup
 
 export REPLICATED_API_TOKEN=
 
-export REPLICATED_APP=gitea-
+export REPLICATED_APP=gitea-hup
 
 ## Log out of registrys to re-authenticate
 
@@ -42,6 +42,14 @@ replicated release lint --yaml-dir ./manifests
 
 replicated release create --yaml-dir ./manifests
 
+ssh to vm3.chancydog.com
+
+view the admin console install output
+
+In browser, go to vm3.chancydog.com
+
+Deploy the app
+
 ## Step 2 - Adding Customized Config Inputs - Files to review
 git checkout unstable
 
@@ -55,9 +63,9 @@ replicated promote to unstable channel - GUI
 
 Grab install commands from Customer Page
 
-ssh to vm2.chancydog.com
+ssh to vm4.chancydog.com
 
-Go to vm2.chancydog.com:30000 in browser
+Go to vm4.chancydog.com:30000 in browser
 
 admin console already running
 
@@ -78,7 +86,7 @@ replicated channel ls
 
 replicated release promote SEQUENCE CHANNEL_ID
 
-go back to vm2.chancydog.com admin console and refresh releases available
+go back to vm4.chancydog.com admin console and refresh releases available
 
 deploy the new release
 
