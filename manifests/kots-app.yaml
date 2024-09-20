@@ -5,7 +5,7 @@ metadata:
 spec:
   title: Gitea
   statusInformers:
-     - deployment/gitea
+     - service/gitea
   ports:
     - serviceName: "gitea"
       servicePort: 3000
