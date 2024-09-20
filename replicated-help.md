@@ -1,8 +1,14 @@
-## Step 1 - Files to review
-gitea Chart.yaml
+## Step 1 - Initial Flow - Files to review
+gitea 
+
+Chart.yaml
+
 ./manifest/embedded-cluster.yaml
+
 ./manifest/gitea.yaml
+
 ./manifest/kots-app.yaml
+
 ./manifest/k8s-app.yaml
 
 
