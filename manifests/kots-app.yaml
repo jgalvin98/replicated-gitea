@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: gitea
 spec:
-  title: Gitea-Up
+  title: Gitea-Giddy
   icon: https://bitnami.com/assets/stacks/gitea/img/gitea-stack-220x234.png
   statusInformers:
     - deployment/gitea
